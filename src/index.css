@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Noto+Sans+Myanmar:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Roboto", sans-serif;
+  /* font-family: "Padauk", sans-serif; */
+}
+body {
+  @apply bg-[rgb(248,249,250)] text-[#344767];
+}
+.user_role_card {
+  background: rgb(113, 109, 109);
+  background: linear-gradient(
+    180deg,
+    rgba(113, 109, 109, 0) 31%,
+    rgba(0, 0, 0, 0.7903536414565826) 100%
+  );
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.pin {
+  @apply w-16 h-16 font-bold text-center text-3xl outline-none rounded-md;
+}
+/* .active{
+    @apply bg-gradient-to-r from-cyan-400 to-cyan-500 text-white shadow-lg 
+} */
+.input-form {
+  @apply px-5 py-3 outline-none border rounded;
+}
+.btn {
+  @apply px-6 py-2 bg-red-500 text-white rounded;
+}
+.submit-btn {
+  @apply px-5 py-1 bg-green-500 text-white rounded font-bold;
+}
+.dis-btn {
+  @apply px-5 py-1 bg-gray-500 text-white rounded font-bold outline-none;
+}
+
+.mantine-a240xj{
+  background-color: rgba(0, 0, 0,0.1);
+}
